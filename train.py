@@ -45,15 +45,3 @@ for n in range(1, 11):
     print("Success Rate at {:d}: {:f}".format(n, sr))
 
 
-'''
-Success Rate at 1: 27.783669
-Success Rate at 2: 39.236479
-Success Rate at 3: 45.281018
-Success Rate at 4: 49.310710
-Success Rate at 5: 51.219512
-Success Rate at 6: 53.234358
-Success Rate at 7: 54.188759
-Success Rate at 8: 55.673383
-Success Rate at 9: 56.733828
-Success Rate at 10: 57.688229
-'''
