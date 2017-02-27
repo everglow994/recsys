@@ -40,7 +40,7 @@ def success_rate(pred, true):
     return cnt * 100 / pred.shape[0]
 
 
-for n in range(1, 11):
+for n in range(1, 1100):
     sr = success_rate(pred[:, -n:], test_x)
     print("Success Rate at {:d}: {:f}".format(n, sr))
 
